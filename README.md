@@ -24,7 +24,7 @@ Use the Rust sister project [PicoHumidityTemperatureRead](https://github.com/Coo
 
 To start measuring the Pico first needs to aquire the current time and date.
 
-This is done by the first attempt to read from read, since every read access provides the Pico with the current time and date.
+This is done by the first attempt to read from the Pico, since every read access provides the Pico with the current time and date.
 
 The RTC only needs to get initialized once but still get's readjusted every time the Pico get's read.
 
