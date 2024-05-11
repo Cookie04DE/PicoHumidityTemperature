@@ -457,7 +457,7 @@ int main(void) {
     wifi();
     sleep_ms(1000);
     printf("Warten auf RTC Initialisierung\n");
-    blink_error_code(11);
+    blink_error_code(13);
     sleep_ms(1000);
   }
 
