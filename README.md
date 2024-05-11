@@ -18,7 +18,7 @@ Note that the flash is only used if the time between reads from the Pico is more
 
 # Reading measurements from the Pico
 
-Use the Rust sister project [PicoHumidityTempRead](https://github.com/Cookie04DE/PicoHumidityTempRead) to read out the measurements and insert them into a PostgreSQL Database.
+Use the Rust sister project [PicoHumidityTemperatureRead](https://github.com/Cookie04DE/PicoHumidityTemperatureRead) to read out the measurements and insert them into a PostgreSQL Database.
 
 # RTC Initialization
 
