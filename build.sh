@@ -1,8 +1,10 @@
 #!/bin/bash
 source pico.env
 
+echo $PICO_SDK_PATH
+
 rm -dR build/*
 cd build
-env CMAKE_EXPORT_COMPILE_COMMANDS=1 cmake ..
+cmake ..
 cp compile_commands.json ../
 make
