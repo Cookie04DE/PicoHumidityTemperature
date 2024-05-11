@@ -1,0 +1,6 @@
+.cache
+.helix
+wifi_credentials.h
+build/
+compile_commands.json
+pico.env

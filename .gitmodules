@@ -1,0 +1,3 @@
+[submodule "dht"]
+	path = dht
+	url = https://github.com/vmilea/pico_dht.git
