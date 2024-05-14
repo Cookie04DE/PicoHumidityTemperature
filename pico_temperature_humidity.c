@@ -71,7 +71,7 @@ void signal_permanent_error(int error_code, char *format, ...) {
   va_end(l);
 }
 
-void wifi() {
+void wifi(void) {
   for (int i = 0; i < 3; i++) {
     int err = cyw43_arch_wifi_connect_timeout_ms(
         WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 12000);
